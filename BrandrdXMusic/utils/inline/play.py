@@ -68,10 +68,10 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/OWNER_DHPR"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/RollexSupport"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/FONT_CHANNEL_01"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/love_in_timeee"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,10 +90,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/OWNER_DHPR"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/RollexSupport"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/FONT_CHANNEL_01"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/love_in_timeee"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -245,10 +245,10 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/OWNER_DHPR"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/RollexSupport"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/FONT_CHANNEL_01"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/love_in_timeee"
             ),
         ],
 
