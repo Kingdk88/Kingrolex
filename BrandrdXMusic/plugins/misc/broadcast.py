@@ -22,10 +22,6 @@ IS_BROADCASTING = False
 
 @app.on_message(filters.command("broadcast") & SUDOERS)
 @language
-async def braodcast_message(client, message, _):
-    if message.from_user.id != SUDOERS:
-        return await message.reply_text(
-            "» **ᴊᴏɪɴ @OWNER_DHPR ғᴏʀ ᴘʀᴏᴍᴏ"
         )
     global IS_BROADCASTING
     if message.reply_to_message:
