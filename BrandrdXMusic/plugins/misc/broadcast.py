@@ -5,7 +5,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
 from BrandrdXMusic import app
-from config import OWNER_ID
+from BrandrdXMusic.misc import SUDOERS
 from BrandrdXMusic.utils.database import (
     get_active_chats,
     get_authuser_names,
@@ -20,12 +20,12 @@ from config import adminlist
 IS_BROADCASTING = False
 
 
-@app.on_message(filters.command("broadcast") & SUDOERS)
+@app.on_message(filters.command("broadcast")& SUDOERS)
 @language
 async def braodcast_message(client, message, _):
     if message.from_user.id != SUDOERS:
         return await message.reply_text(
-            "» **sɪʀғ ʏᴇʜ @RollexSupport ʙʀᴏᴀᴅᴄᴀsᴛ ᴋᴀʀ sᴀᴋᴛᴀ ʜᴀɪ 😏**\n» ᴊᴏɪɴ @love_in_timeee ғᴏʀ ᴘʀᴏᴍᴏ"
+            "» **hello "
         )
     global IS_BROADCASTING
     if message.reply_to_message:
